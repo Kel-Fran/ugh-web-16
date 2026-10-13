@@ -91,7 +91,7 @@ export default function App() {
     const EX = useMemo(() => EXS[ex], [ex]);
 
     return (<>
-        <input type= "number" min = { 0} max = { EXS.length - 11} value = { ex } onChange = { x => setEx(+ x.target.value)} />
+        <input type= "number" min = { 0} max = { EXS.length - 1} value = { ex } onChange = { x => setEx(+x.target.value)} />
     < EX />
     </>);
 
