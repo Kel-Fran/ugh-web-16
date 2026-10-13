@@ -74,7 +74,7 @@ function Ex2() {
 
 }
 
-function Ex3() { return <p> just use the complex calculator. it can do even more than this<!p> }
+function Ex3() { return <p> just use the complex calculator. it can do even more than this</p> }
 function Ex4() {
     const [text, setText] = useState('');
     return <>
